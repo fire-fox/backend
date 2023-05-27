@@ -51,5 +51,5 @@ app.get('/peticiones', (req, res) => {
 // Iniciar el servidor
 const port = 4000;
 httpServer.listen(port, () => {
-  console.log(`Servidor Express escuchando en el puerto ${port}`);
+  console.log(`Servidor Express escuchando en el puerto: ${port}`);
 });
